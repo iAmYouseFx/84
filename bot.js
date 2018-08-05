@@ -14,6 +14,7 @@ hero.on('ready', () => {
   console.log(`Members .: ${hero.guilds.get('475072613157437445').memberCount}`)
   console.log(`Strikers .: ${hero.users.filter(s => s.username.includes('Strikers') && s.id !== hero.user.id).size}`);
   console.log(``);
+  console.log(`Developer .:`);
   console.log(`! StrikerHeRo.`);
 });
 hero.on('guildMemberAdd', member => {
